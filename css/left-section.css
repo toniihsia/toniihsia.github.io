@@ -1,0 +1,33 @@
+#left-section {
+  width: 20%;
+  position: relative;
+  top: 40%;
+  height: 100%;
+  transform: translateY(-50%);
+  vertical-align: top;
+  background: #bcb6c2;
+}
+
+#name {
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+#caption {
+  font-size: 17px;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+nav ul li {
+  color: white;
+}
+.nav-info {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

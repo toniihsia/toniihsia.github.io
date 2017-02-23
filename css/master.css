@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+html, body, section, div, h1, h2, h3, nav, ul, li, p{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: none;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #383838;
+}
+
+h2 {
+  font-weight: 400;
+}

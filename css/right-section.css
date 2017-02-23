@@ -1,0 +1,83 @@
+#right-section {
+  width: 70%;
+  position: relative;
+  top: 50%;
+  height: 80vh;
+  transform: translateY(-50%);
+  overflow: auto;
+  background: #3e3e3e
+  color: white;
+  padding-left: 10px;
+  overflow-y: scroll;
+}
+
+body {
+  margin: auto;
+}
+.title {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.project {
+  /*display: flex;*/
+
+}
+
+.project-photo-container {
+  position: relative;
+  min-width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.project-photo {
+  width: auto;;
+  height: 300px;
+  margin: auto;
+}
+
+.photos {
+  display: flex;
+
+}
+.project-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  width: 300px;
+  /*position: relative;
+  top: 40%;
+  transform: translateY(-40%);*/
+}
+
+.project-description p{
+  width: 300px
+  /*position: relative;
+  top: 50%;
+  transform: translateY(-50%);*/
+}
+
+.project-description button {
+  position: relative;
+  top: 80%;
+}
+
+
+#about-me {
+  height: 100vh;
+}
+
+#resume {
+  height: 100vh;
+}
+
+#projects {
+  height: 100vh;
+}
+
+#contact-me {
+  height: 100vh;
+}
