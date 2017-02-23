@@ -1,8 +1,8 @@
 #right-section {
-  width: 75%;
+  /*width: 75%;*/
   position: relative;
   top: 50%;
-  height: 100vh;
+  height: 80%;
   transform: translateY(-50%);
   overflow: auto;
   background: #3e3e3e

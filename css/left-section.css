@@ -1,8 +1,8 @@
 #left-section {
-  width: 25%;
+  /*width: 25%;*/
   position: relative;
   top: 50%;
-  height: 150%;
+  height: 80%;
   transform: translateY(-50%);
   vertical-align: top;
   background: #bcb6c2;
@@ -22,20 +22,48 @@
   color: white;
 }
 
-nav ul li a{
-  color: white;
-  font-weight: 500;
+@keyframes mypush {
+  0%   {transform: scale(1);}
+  25%  {transform: scale(1.2);}
+  50% {transform: scale(1);}
+  75%  {transform: scale(1.2);}
+  100% {transform: scale(1);}
 }
+
+.navlink {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  line-height: 100px;
+  width: 100px;
+  color: #bcb6c2;
+  font-size: 30px;
+}
+
+.push:hover {
+  animation: mypush 0.75s;
+}
+
+.push {
+  height:100px;
+  width: 100px;
+  background: white;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .nav-info {
   text-align: center;
   position: relative;
-  top: 30%;
-  transform: translateY(-30%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-#flower {
+#prof-photo {
   margin-top: 100px;
-  width: 110%;
+  width: 30%;
 }
 
 #underline {
