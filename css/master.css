@@ -4,7 +4,7 @@ body {
   overflow: hidden;
 }
 
-html, body, section, div, h1, h2, h3, nav, ul, li, p{
+html, body, section, div, h1, h2, h3, nav, ul, li, p, a{
   margin: 0;
   border: 0;
   padding: 0;

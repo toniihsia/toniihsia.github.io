@@ -1,13 +1,13 @@
 #right-section {
-  width: 70%;
+  width: 75%;
   position: relative;
   top: 50%;
-  height: 80vh;
+  height: 100vh;
   transform: translateY(-50%);
   overflow: auto;
   background: #3e3e3e
   color: white;
-  padding-left: 10px;
+  padding: 10px;
   overflow-y: scroll;
 }
 
