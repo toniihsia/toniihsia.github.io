@@ -9,6 +9,12 @@
   font-weight: bolder;
   text-align: center;
 }
+
+#caption {
+  font-weight: 200;
+  text-align: center;
+}
+
 #header-photo {
   width: 100vw;
 }

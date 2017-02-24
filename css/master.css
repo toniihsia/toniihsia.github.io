@@ -16,19 +16,47 @@ html, body, section, div, h1, h2, h3, nav, ul, li, p, a{
   color: #383838;
 }
 
+body {
+  max-width: 930px;
+  margin: 0 auto;
+}
 h2 {
   font-weight: 400;
 }
+
 header {
-  width: 100vw;
   height: 100vh;
   top: 0;
 }
 
+
+nav {
+  position: fixed;
+  right: 20px;
+  background-color: blue;
+  height: 300px;
+  border-radius: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav ul {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav-button {
+  height: 20px;
+  width: 20px;
+  background-color: #3e3e3e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px
+}
+
 nav ul{
-  display: flex;
-  justify-content: space-between;
-  width: 500px;
   margin: 0 auto;
 
 }
