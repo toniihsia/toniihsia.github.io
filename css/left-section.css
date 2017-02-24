@@ -1,5 +1,6 @@
 #left-section {
-  /*width: 25%;*/
+  min-width: 300px;
+  max-width: 30vw;
   position: relative;
   top: 50%;
   height: 100%;
