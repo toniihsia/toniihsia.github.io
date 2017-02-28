@@ -1,4 +1,4 @@
-
+/*
 html, body, section, div, h1, h2, h3, nav, ul, li, p, a{
   margin: 0;
   border: 0;
@@ -25,4 +25,15 @@ body {
 
 h2 {
   font-weight: 400;
+}*/
+
+.p-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.p-container img {
+  display: block;
+  margin: 0 auto;
 }
