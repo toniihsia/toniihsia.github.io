@@ -1,0 +1,66 @@
+.landing-page-no {
+  bottom: 12vh;
+}
+
+#grey-left-section {
+  background-color: #343334;
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 100px;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 90vh;
+  text-align: center;
+  font-size: 570px;
+  letter-spacing: 80px;
+  color: #3e3e3e;
+}
+
+#name {
+  position: absolute;
+  text-align: left;
+  font-weight: 400;
+  font-size: 60px;
+  top: 35%;
+  left: 10%;
+  height: 60px;
+  color: white;
+  line-height: 1;
+  letter-spacing: 15px;
+}
+
+#name-details {
+  text-align: left;
+  position: absolute;
+  /*word-wrap: break-word;*/
+  font-size: 20px;
+  width: 30%;
+  line-height: 1;
+  top: 50.5%;
+  left: 10%;
+  letter-spacing: 1.5px;
+}
+
+#line-break {
+  position: absolute;
+  left: 10%;
+  top: 49%;
+  height: 2px;
+  width: 8%;
+  background-color: #dad426;
+}
+
+
+#photo-right-section {
+  width: 55%;
+  height: 100%;
+  overflow: hidden;
+  direction: ltr;
+}
+
+#photo-right-section img {
+  display: block;
+  margin: 0 auto;
+  object-fit: fill;
+}

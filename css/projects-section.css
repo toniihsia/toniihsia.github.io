@@ -1,0 +1,13 @@
+#projects-title {
+  letter-spacing: normal;
+  color: white;
+  line-height: 1;
+  height: 64px;
+  text-align: right;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+#sketch-photo {
+  height: 100%;
+}

@@ -1,4 +1,3 @@
-
 html, body, section, span, article, label, div, h1, h2, h3, nav, ul, li, p, a{
   margin: 0;
   border: 0;
@@ -14,4 +13,109 @@ html, body, section, span, article, label, div, h1, h2, h3, nav, ul, li, p, a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: #383838;
+}
+
+body {
+  min-width: 1270px;
+  min-height: 950px;
+}
+
+.section {
+  /*min-height: 1000px;*/
+  height: 90vh;
+}
+
+.section-outline {
+    position: absolute;
+    height: 86vh;
+    width: 100%;
+    top: 2vh;
+    /*left: 0.5vw;
+    right: 0.5vw;*/
+    /*bottom: 1vh;*/
+    outline: solid white 5px;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+}
+
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.icon {
+  position: absolute;
+  margin-top: 20px;
+  left: 20px;
+  height: 75px;
+  width: 75px;
+  background-color: #dad426;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 75px;
+}
+
+.line-break {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 15%;
+  height: 2px;
+  background-color: black;
+}
+
+.normal-text {
+  color: white;
+  font-weight: 100;
+}
+
+.emphasized-text {
+  font-weight: 400;
+  color: black;
+  /*background-color: #343334;*/
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.emphasized-caption {
+  font-weight: bolder;
+  color: #dad426;
+}
+
+.page-no-container {
+  height: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.page-no {
+  line-height: 20px;
+  font-size: 15px;
+  position: absolute;
+  left: 20px;
+  text-align: left;
+  height: 20px;
+}
+.page-no-wh {
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: white;
+}
+.page-no-bl {
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: black;
+}
+
+#page-no-gr {
+  font-size: 12px;
+  letter-spacing: 5px;
 }
