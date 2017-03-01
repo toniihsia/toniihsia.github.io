@@ -1,5 +1,5 @@
 
-html, body, section, div, h1, h2, h3, nav, ul, li, p, a{
+html, body, section, span, article, label, div, h1, h2, h3, nav, ul, li, p, a{
   margin: 0;
   border: 0;
   padding: 0;
@@ -14,15 +14,4 @@ html, body, section, div, h1, h2, h3, nav, ul, li, p, a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: #383838;
-}
-
-body {
-  display: flex;
-  height: 100vh;
-  width: 80vw;
-  margin: 0 auto;
-}
-
-h2 {
-  font-weight: 400;
 }
