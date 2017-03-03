@@ -48,7 +48,7 @@ transform: translateY(-25%);
 }
 
 #about-me-photo {
-  min-width: 45%;
+  min-width: 380px;
   height: 70%;
   overflow: hidden;
   position: relative;
