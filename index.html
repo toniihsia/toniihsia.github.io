@@ -54,12 +54,12 @@
             <br/>
             <span class="emphasized-text">Looking for a driven software engineer? Curious about my previous work?</span><br/><span class="emphasized-caption">Download and view my resume!</span>
             <br/>
-            <img src="./assets/images/down-arrow.png" id="download-resume"/>
+            <img src="./assets/images/icons/down-arrow.png" id="download-resume"/>
           </div>
 
         </div>
         <div id="about-me-photo">
-          <img src="./assets/images/typing-photo-4.jpg" />
+          <img src="./assets/images/about-me/typing-photo-4.jpg" />
         </div>
       </div>
       <div class="page-no ab-page-no">
@@ -68,33 +68,50 @@
     </section>
 
     <section id="projects-sec" class="section">
-      <div class="flex-container">
+      <!-- <div class="flex-container"> -->
         <div class="grey-section">
           <div class="icon">TH</div>
           <div id="projects-title">MY<br/> PROJECTS</div>
         </div>
         <div id="projects-list">
-          <ul>
-            <li class="project">
-              <div class="project-info">
-                <h2>PicoGram</h2>
+          <button class="project-toggler toggle-left" onclick="toggleProjectDiv(-1)">&#10094;</button>
+          <div class="project flex-container">
+            <div class="project-photos">
+              <div class="project-photo">
+                <img src="./assets/images/projects/picogram/picogram-1.jpg"/>
               </div>
-            </li>
-            <li class="project">
-              <div class="project-info">
-                <h2>CSS Visual Cues</h2>
+            </div>
+            <div class="project-info">
+              hello
+            </div>
+          </div>
+          <div class="project flex-container">
+            <div class="project-photos">
+              <div class="project-photo">
+                <img src="./assets/images/projects/picogram/picogram-2.jpg"/>
               </div>
-            </li>
-            <li class="project">
-              <div class="project-info">
-                <h2>re:Scan</h2>
+            </div>
+            <div class="project-info">
+              hello
+            </div>
+          </div>
+          <div class="project flex-container">
+            <div class="project-photos">
+              <div class="project-photo">
+                <img src="./assets/images/projects/picogram/picogram-3.jpg"/>
               </div>
-            </li>
-          </ul>
+            </div>
+            <div class="project-info">
+              hello
+            </div>
+          </div>
+          <button class="project-toggler toggle-left" onclick="toggleProjectDiv(1)">&#10095</button>
         </div>
-      </div>
+      <!-- </div> -->
     </section>
-  <body>
+
+    <script type="text/javascript" src="./assets/js/projects.js"></script>
+  </body>
 </html>
 
 
